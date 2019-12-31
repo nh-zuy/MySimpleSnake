@@ -82,7 +82,7 @@ class Point
 		{
 			if (x == 2)
 			{
-				x = setting.GetWidth() - 1;
+				x = setting.GetWidth();
 			}
 			x--;
 		};
