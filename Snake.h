@@ -39,6 +39,11 @@ class Snake
 			srand((unsigned)time(NULL));
 			fruit.SetNewFruit(rand()%(setting.GetWidth() - 2) + 2, rand()%(setting.GetHeight() - 3) + 3);
 		};
+		//Destructor
+		~Snake()
+		{
+			delete[] cell;
+		}
 		//Add a cell at the end of the snake when he get a fruit
 		void AddCell(int x, int y)
 		{
