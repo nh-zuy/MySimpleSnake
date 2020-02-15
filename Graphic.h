@@ -1,11 +1,9 @@
+#ifndef GRAPHIC_H
+#define GRAPHIC_H
 #include <iostream>
 #include <conio.h>
 #include <Windows.h>
 using namespace std;
-
-#ifndef GRAPHIC_H
-#define GRAPHIC_H
-
 void resizeConsole(int width, int height)
 {
 	HWND console = GetConsoleWindow();
@@ -47,5 +45,4 @@ void ToMau(int x, int y, string a, int color)
 	cout << a;
 	textcolor(7);
 }
-
 #endif
