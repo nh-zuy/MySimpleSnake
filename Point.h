@@ -1,10 +1,8 @@
+#ifndef POINT_H
+#define POINT_H
 #include <iostream>
 #include "Graphic.h"
 #include "Setting.h"
-
-#ifndef POINT_H
-#define POINT_H
-
 class Point
 {
 	private:
@@ -95,5 +93,4 @@ class Point
 			x++;
 		};
 };
-
 #endif
