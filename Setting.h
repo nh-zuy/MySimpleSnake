@@ -25,19 +25,19 @@ class Setting
 			GameStatus = false;
 			return GameStatus;
 		};
-		int GetWidth()
+		int GetWidth() const
 		{
 			return WidthBoard;
 		}
-		int GetHeight()
+		int GetHeight() const
 		{
 			return HeightBoard;
 		};
-		int GetSpeedSnake()
+		int GetSpeedSnake() const
 		{
 			return SpeedSnake;
 		};
-		int GetLevel()
+		int GetLevel() const
 		{
 			return Level;
 		};
