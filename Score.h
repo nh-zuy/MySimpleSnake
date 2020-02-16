@@ -18,7 +18,7 @@ class Score
 		{
 			value++;
 		};
-		int GetScore()
+		int GetScore() const
 		{
 			return value;
 		}
