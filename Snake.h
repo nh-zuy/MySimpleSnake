@@ -1,3 +1,5 @@
+#ifndef SNAKE_H
+#define SNAKE_H
 #include "Graphic.h"
 #include "Point.h"
 #include "Fruit.h"
@@ -6,10 +8,6 @@
 #include <conio.h>
 #include <dos.h>
 #include <ctime>
-
-#ifndef SNAKE_H
-#define SNAKE_H
-
 #define MAX_SNAKE_SIZE 69
 enum Direction{UP, DOWN, LEFT, RIGHT, NONE};
 
@@ -185,5 +183,4 @@ class Snake
 			Sleep(setting.GetSpeedSnake()); //Easilly realizing the difference
 		}
 };
-
 #endif
