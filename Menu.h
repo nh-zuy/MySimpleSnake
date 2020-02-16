@@ -1,10 +1,10 @@
+#ifndef MENU_H
+#define MENU_H
 #include "Graphic.h"
 #include "Setting.h"
 
-#ifndef MENU_H
-#define MENU_H
-
 #define MAX_LIST 3
+
 class Menu
 {
 	private:
@@ -122,5 +122,4 @@ class Menu
 			};
 		};
 };
-
 #endif
