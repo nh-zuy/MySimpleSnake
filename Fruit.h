@@ -12,11 +12,11 @@ class Fruit
 			this->x = x;
 			this->y = y;
 		};
-		int GetFruitX()
+		int GetFruitX() const
 		{
 			return x;
 		};
-		int GetFruitY()
+		int GetFruitY() const
 		{
 			return y;
 		}
