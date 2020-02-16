@@ -24,11 +24,11 @@ class Point
 		};
 		
 		//Get x, y
-		int GetX()
+		int GetX() const
 		{
 			return x;
 		};
-		int GetY()
+		int GetY() const
 		{
 			return y;
 		};
